@@ -1,9 +1,12 @@
 {
-  "name": "gd-command",
-  "version": "0.0.1",
+  "name": "@gd-krone/gd-command",
+  "version": "0.0.13",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/gd-krone"
+  },
   "peerDependencies": {
-    "@angular/common": "^11.0.1",
-    "@angular/core": "^11.0.1"
+    "@angular/common": "~10.2.0",
+    "@angular/core": "^10.2.3"
   },
   "dependencies": {
     "tslib": "^2.0.0"

@@ -6,4 +6,9 @@ import { Injectable } from '@angular/core';
 export class GdCommandService {
 
   constructor() { }
+
+  alert(): void 
+  {
+    alert("Hello Package")
+  }
 }
